@@ -1,0 +1,48 @@
+*{margin:0  ;  padding:0}
+body{b
+		background-color:antiquewhite;
+		padding-top:4cm;
+		margin:auto;
+		
+    }
+	
+.form-container{
+	width:250px;
+	height :auto;
+	padding: 30px 30px;
+	border-radius:15px;
+	background-color:cadetblue;
+	box-shadow: 2 2 cornsilk;
+	margin:auto;
+}
+
+.user-id{
+		
+}
+ul.list{
+		list-style-type:none;
+		text-align:center;
+	
+		}
+
+ul.list li{
+	width:250px;
+	margin-bottom:10px; 
+}
+	
+	ul.list li input{
+	width:250px;
+	text-align:center;
+	padding:8px 0px;
+	
+	border-radius:5px;
+	background-color:gainsboro;
+		
+	}
+	ul.list li input[type="button"]{
+	background-color:#4690fb;
+	color:#fff; 
+	width:250px;
+	padding:10px 0px;
+	}
+	

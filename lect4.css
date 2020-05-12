@@ -1,0 +1,148 @@
+*{
+	padding:0;
+
+	text-align:none
+}
+body{
+	background-color:beige;
+	background-size:cover;
+	
+}
+.menu-bar
+{
+		text-align:center;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	background-color:SteelBlue;
+	border-radius:15px;
+	color:white;
+	
+}
+.menu-bar ul li
+{
+	width:120px;
+	margin:15px;
+	padding:15px;
+	
+	
+	
+}
+
+.menu-bar ul li a
+{	text-decoration:none;
+	color:white;
+}
+	
+.menu-bar ul li:hover
+{
+	background:steelBlue ;
+	border-radius:8px;
+	
+}	
+
+.sub-menu
+{display:none;
+}
+.menu-bar ul li:hover .sub-menu
+{
+	display:block;
+	position:absolute;
+	margin-top:15px;
+	margin-left:-15px;
+	background:beig;
+	
+}
+	
+
+.menu-bar ul li:hover .sub-menu ul
+{
+	display:block;
+	margin:10px;
+	background:lightblue;
+	
+	
+}
+.book-love{
+	
+height: 270px;
+  width: 900px;
+  position:relative;
+}
+.book-img1
+{
+	background:url('sita.jpg');
+	width:200px;
+	height:250px;
+	background-size:100%;
+	
+}
+.book-img2
+{background:url('naga.jpg') no-repeat;
+	width:200px;
+	height:250px;
+	background-size:100%;
+padding:20px;	
+}
+
+
+.books-love p
+{   background-color:lightBlue;
+     width:900px;
+	
+	border-radius:15px;
+	text-align:left;
+	color:white;
+	margin:20px auto 30px;
+	padding:8px;
+
+
+}
+.books-love ul
+{
+  
+  text-align:left;
+  width: 150px;
+  margin:20px auto 30px;
+
+}
+ul.imges li
+{
+	width:120px;
+	height:23px;
+}
+
+
+.container
+{
+	
+	max-width:900px;
+	margin:auto;
+	background:black;
+	
+	
+}
+.gallery
+{
+border:1px solid #ccc;
+float:left;
+width:270px;
+padding:5px;
+
+}
+.gallery img
+{width:100%;
+height:390px;
+	
+}
+.desc{
+	padding:15px;
+	text-align:center; 
+}
+	
+
+
+
+
